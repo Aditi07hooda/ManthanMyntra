@@ -1,0 +1,72 @@
+.notifications {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.notification {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.notification p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.notification button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notification button:hover {
+  background-color: #45a049;
+}
+
+.notification .icon {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #666;
+}
+
+.notification .icon:before {
+  content: "\f0f3"; /* font awesome icon */
+  font-family: "Font Awesome 5 Free";
+}
+
+.notification-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+  margin-right: 10px;
+}
+
+.notification-text {
+  flex: 1;
+}
+
+.notification-content {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
