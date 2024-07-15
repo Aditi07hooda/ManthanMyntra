@@ -18,7 +18,6 @@ const Cards = () => {
 
         {/* PRODUCT CARD IS DEFINED HERE */}
         <ProductItem />
-
     </>
 
   );

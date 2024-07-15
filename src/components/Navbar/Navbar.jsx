@@ -14,7 +14,7 @@ import Cart from "../Product/Cart";
 import { NavLink } from "react-router-dom";
 import { MdOutlineAddReaction } from "react-icons/md";
 import Reaction from "../Reactions/Reaction";
-import arrowUp from "../navigation.gif"
+import arrowUp from "../navigation.gif";
 
 const menu = ["Mens", "Womens", "Kids", "Home & Living", "Offer"];
 
@@ -97,25 +97,25 @@ const Navbar = () => {
 
             {/* give reactions */}
             <div className="p-r-10 reaction-notify-container">
-              <MdOutlineAddReaction style={{"fontSize": "30px"}} />
+              <MdOutlineAddReaction style={{ fontSize: "30px" }} />
               <div
                 onClick={() => {
-					setShowReaction(!showReaction);
+                  setShowReaction(!showReaction);
                 }}
               >
-                Reaction Notify
+                React Notification
               </div>
               <img
-      src={arrowUp} // replace with the URL of your GIF
-      alt="arrow up"
-      className="arrow-up-gif"
-    />
+                src={arrowUp} // replace with the URL of your GIF
+                alt="arrow up"
+                className="arrow-up-gifs"
+              />
             </div>
           </div>
         </div>
         {showWishlist && <Modal />}
         {showCart && <Cart />}
-		{showReaction && <Reaction />}
+        {showReaction && <Reaction />}
       </div>
     </>
   );

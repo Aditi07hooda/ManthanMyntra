@@ -200,7 +200,7 @@ body {
   position: relative;
 }
 
-.arrow-up-gif {
+.arrow-up-gifs {
   position: absolute;
   top: 56px; /* adjust the top value to position the GIF above the text */
   left: 18%; /* center the GIF horizontally */
